@@ -5,27 +5,21 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewQuest", menuName = "DQT/New Quest", order = 1)]
 public class Quest : ScriptableObject
 {
-    [SerializeField]
-    private string description;
+   
 
-    [SerializeField]
-    private string question;
+    public string question;
 
-    [SerializeField]
-    private AnswerFeedback[] answers;
+    public AnswerFeedback[] answers;
 
 
     [System.Serializable]
-    private class AnswerFeedback
+    public class AnswerFeedback
     {
-        [SerializeField]
-        private bool acceptedAnswer = false;
+        public bool acceptedAnswer = false;
 
-        [SerializeField]
-        private string answer;
+        public string answer;
 
-        [SerializeField]
-        private string feedback;
+        public string feedback;
     }
 
     
