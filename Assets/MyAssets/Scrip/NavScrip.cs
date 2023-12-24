@@ -34,10 +34,10 @@ public class NavScrip : MonoBehaviour
             {
                 player.SetDestination(hitInfo.point);
             }
-
-
-
         }
+
+        this.GetComponent<Animator>().SetFloat("Speed", this.player.velocity.magnitude);
+
     }
 
     public void ReSet()
