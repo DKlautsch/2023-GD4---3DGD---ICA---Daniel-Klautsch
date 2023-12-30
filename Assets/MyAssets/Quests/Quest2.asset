@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
-  m_Name: Quest1
+  m_Name: Quest2
   m_EditorClassIdentifier: 
-  question: Is it Caturday tody ?
+  question: THIS IS QUESTION FUCKING TEOW
   answers:
   - acceptedAnswer: 0
-    answer: YES
-    feedback: YES YES YES
+    answer: OH MUCH OW
+    feedback: MUCH INDEED
   - acceptedAnswer: 0
-    answer: NO
-    feedback: NONONO
+    answer: BLUrgh Dba
+    feedback: NO YOUR BAH
   - acceptedAnswer: 1
-    answer: MAYBE nyan
-    feedback: NYANYNANYNA
+    answer: I LIKE GAME
+    feedback: NOICEE

@@ -7,8 +7,8 @@ using System.Collections.Generic;
 public class QuestGiver : MonoBehaviour
 {
     
-    
-
+    [SerializeField]
+    private int correctAnswers = 0;
     
     [SerializeField]
     private List<Quest> quests;
@@ -37,8 +37,8 @@ public class QuestGiver : MonoBehaviour
 
 
             questionUI.gameObject.SetActive(true);
-
-
+            questionUI.gameObject.GetComponent<QuestRecall>().LastQuester = this;
+            questionUI.gameObject.transform.GetChild(0).gameObject.SetActive(true);
 
 
 
@@ -47,10 +47,21 @@ public class QuestGiver : MonoBehaviour
 
     public void QuestAnswered(int answer)
     {
-        dialogue.text = quests[0].answers[answer].feedback;
+        if(quests[0].answers[answer].acceptedAnswer==true)
+        correctAnswers++;
 
-        player.gameObject.GetComponent<NavScrip>().onAnswerGiven.Invoke();
+        dialogue.text = quests[0].answers[answer].feedback;
+        quests.Remove(quests[0]);
+        
+
     }
+
+    public void Finish()
+    {
+        player.gameObject.GetComponent<NavScrip>().onAnswerGiven.Invoke();
+        
+    }
+
 
 
 }

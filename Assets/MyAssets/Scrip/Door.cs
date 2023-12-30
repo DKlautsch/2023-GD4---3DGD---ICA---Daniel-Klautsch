@@ -12,12 +12,19 @@ public class Door : MonoBehaviour
         if(other==player&&player.GetComponent<NavScrip>().HasKey)
         {
             player.GetComponent<NavScrip>().HasKey = false;
-            
-            this.gameObject.SetActive(false);
-
-
+            this.gameObject.GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled= false;
+            this.gameObject.transform.eulerAngles = new Vector3(0.0f, 90.0f, 0.0f);
+            this.gameObject.transform.GetChild(0).GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled= false;
 
         }
+
+    }
+
+    public void Reset()
+    {
+        this.gameObject.GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled= true;
+            this.gameObject.transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+            this.gameObject.transform.GetChild(0).GetComponent<UnityEngine.AI.NavMeshObstacle>().enabled= true;
 
     }
 
