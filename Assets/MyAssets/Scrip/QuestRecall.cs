@@ -10,6 +10,7 @@ public class QuestRecall : MonoBehaviour
     // Start is called before the first frame update
     public void CallQuester(int answer)
     {
+        Debug.Log(answer);
         LastQuester.QuestAnswered(answer);
 
     }

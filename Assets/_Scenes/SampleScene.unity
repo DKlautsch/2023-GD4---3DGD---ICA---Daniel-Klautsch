@@ -3564,10 +3564,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2042604919}
-        m_TargetAssemblyTypeName: QuestRecall, Assembly-CSharp
-        m_MethodName: CallQuester
-        m_Mode: 3
+      - m_Target: {fileID: 1087486297}
+        m_TargetAssemblyTypeName: Answer, Assembly-CSharp
+        m_MethodName: CallHome
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3861,10 +3861,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2042604919}
-        m_TargetAssemblyTypeName: QuestRecall, Assembly-CSharp
-        m_MethodName: CallQuester
-        m_Mode: 3
+      - m_Target: {fileID: 1220146708}
+        m_TargetAssemblyTypeName: Answer, Assembly-CSharp
+        m_MethodName: CallHome
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6184,10 +6184,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2042604919}
-        m_TargetAssemblyTypeName: QuestRecall, Assembly-CSharp
-        m_MethodName: CallQuester
-        m_Mode: 3
+      - m_Target: {fileID: 1989584907}
+        m_TargetAssemblyTypeName: Answer, Assembly-CSharp
+        m_MethodName: CallHome
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

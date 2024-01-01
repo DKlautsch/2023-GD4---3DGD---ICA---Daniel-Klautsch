@@ -8,7 +8,7 @@ public class Answer : MonoBehaviour
 
     public void CallHome()
     {
-
+            Debug.Log(answerId);
             this.transform.parent.transform.parent.GetComponent<QuestRecall>().CallQuester(answerId);
     }
 

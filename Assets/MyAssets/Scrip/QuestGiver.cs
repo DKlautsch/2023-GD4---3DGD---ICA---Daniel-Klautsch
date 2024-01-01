@@ -88,6 +88,9 @@ public class QuestGiver : MonoBehaviour
 
     public void QuestAnswered(int answer)
     {
+
+        Debug.Log(answer);
+
         if(quests[0].answers[answer].acceptedAnswer==true)
         correctAnswers++;
 
