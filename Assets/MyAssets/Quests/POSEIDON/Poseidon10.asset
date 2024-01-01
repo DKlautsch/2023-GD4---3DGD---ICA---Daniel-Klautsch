@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon10
+  m_EditorClassIdentifier: 
+  question: "Hey, careful! You almost fell down the stairs\u2026 Don't make me worry
+    like that. Speaking about which you know the story of how Zeus, Poseidan and
+    Hades became gods right? Their father Cronus ate them, but Zeus cut open his
+    stomach from the inside, defeated him and then shared the world with his brothers.
+    What do you think Poseidon's role in this story was?"
+  answers:
+  - acceptedAnswer: 0
+    answer: He was eaten by his father.
+    feedback: Ah, see that is where you are wrong. Unlike the others Poseidon wasn't
+      eaten, he had been hidden by his mother and instead she fooled Cronus into
+      believing that Poseidon was a lamb, which he then ate.
+  - acceptedAnswer: 0
+    answer: He was fishing.
+    feedback: "I\u2026 well\u2026 No. Unlike the others Poseidon wasn't eaten, he
+      had been hidden by his mother and instead she fooled Cronus into believing
+      that Poseidon was a lamb, which he then ate."
+  - acceptedAnswer: 1
+    answer: He was hiding.
+    feedback: Exactly. Unlike the others Poseidon wasn't eaten, he had been hidden
+      by his mother and instead she fooled Cronus into believing that Poseidon was
+      a lamb, which he then ate.

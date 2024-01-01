@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades5
+  m_EditorClassIdentifier: 
+  question: "Right, it's official now.  \u2026  Not even my mother visits the temple
+    this often...  Anyway, to celebrate this odd occurrence you get a marvellous
+    price:  The ability to talk to me.  Very few ever have--  Hmm? Why do you roll
+    your eyes? Don't you realize why my social status is way above you?"
+  answers:
+  - acceptedAnswer: 0
+    answer: Because you are a women
+    feedback: Gender doesn't have anything to do with it.  Even though priesthood
+      is pretty much the one thing in which both genders hold equal amounts of power. 
+      Heh, sure makes me happy that I am one.  The reason why I am superior to you
+      is because I am a priestess.  I am like a celebrity.  The point remains, don't
+      take it for granted that I am talking with you.
+  - acceptedAnswer: 1
+    answer: Because you are a priestess
+    feedback: Precisely.  As a priestess, I am seen as a very prestigious figure
+      in society.  ...Or I would be if people came here more often.  The point remains,
+      don't take it for granted that I am talking with you.
+  - acceptedAnswer: 0
+    answer: Because you have black hair
+    feedback: "So?  I see that you have the observation and deduction skills of a
+      blind goat.  The reason why I am superior to you is because I am a priestess. 
+      I am like a celebrity.  Even if\u2026 nobody ever really comes here.  \u2026 
+      The point remains, don't take it for granted that I am talking with you."

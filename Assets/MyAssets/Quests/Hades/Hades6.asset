@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades6
+  m_EditorClassIdentifier: 
+  question: You have things to learn.  See, I decided that because of your persistent
+    commitment to talk with me, I will educate you in all matter surrounding Plouton. 
+    That way, you have something to fall back on and you can become a priest, when
+    your current job eventually falls through. No need to thank me.  Which animal
+    is best suites as sacrifice to Plouton?
+  answers:
+  - acceptedAnswer: 1
+    answer: Oxen
+    feedback: Not bad, you seem to know a few things already.  Oxen are very good
+      since they are easy to get and have black fur.  Plouton prefers animals with
+      black fur.  After all black is the absence of color.  Fitting for a god that
+      reigns over the after-life.  Which is the absence of life.
+  - acceptedAnswer: 1
+    answer: Wolf
+    feedback: Hmm, it fits, however it's not very easy to get.  Oxen are better suited
+      since they are easy to get and have black fur.  Plouton prefers animals with
+      black fur.  After all black is the absence of color.  Fitting for a god that
+      reigns over the after-life.  Which is the absence of life.
+  - acceptedAnswer: 0
+    answer: Frog
+    feedback: "Oh, dear. This is going to be a lot more challenging then I anticipated\u2026 
+      You would probably offend the gods with that kind of offering!  Oxen are better
+      suited since they are easy to get and have black fur.  Plouton prefers animals
+      with black fur.  After all black is the absence of color.  Fitting for a god
+      that reigns over the after-life. "

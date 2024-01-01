@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades2
+  m_EditorClassIdentifier: 
+  question: "\u2026  You?  Again?  Have you still not figured out where the other
+    temples are? \u2026 Why are you here? Do you even know who Plouton is?"
+  answers:
+  - acceptedAnswer: 0
+    answer: Hades
+    feedback: 'Don''t say that name! It brings bad luck!  Let me educate you:  Hades
+      is the Underworld, as in its the name of the place.  Back in the day it was
+      also the name of the god. Not any more though, nowadays we call him Plouton. 
+      Plouton is the god of the underworld, after-life and fortune. So: Hades is
+      NOT Plouton, got that?'
+  - acceptedAnswer: 1
+    answer: God of the Underworld
+    feedback: "I see.  You were lucky and guessed the correct answer.  \u2026  So
+      you realise that Hades and Plouton are not the same thing.  One is the Underworld
+      and the other is the god.  You got that? "
+  - acceptedAnswer: 0
+    answer: Death
+    feedback: 'Wrong. Let me educate you:  Death is Thanatos.  Hades is the Underworld,
+      as in its the name of the place.  Back in the day it was also the name of the
+      god.  Not any more though, nowadays we call him Plouton.  Plouton is the god
+      of the underworld, after-life and fortune.'

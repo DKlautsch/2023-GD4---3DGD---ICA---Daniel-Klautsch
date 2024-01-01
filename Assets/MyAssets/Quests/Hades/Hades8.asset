@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades8
+  m_EditorClassIdentifier: 
+  question: If it isn't my very own apprentice.  Do you know what time it is?  It's
+    time to learn about Plouton, so you can make something of yourself one day! 
+    This one shouldn't be hard to answer.  After all you must have done enough sacrifices
+    to know this.  Besides the same logic applies to all previous questions. How
+    do we make sure Plouton receives our sacrifices?
+  answers:
+  - acceptedAnswer: 0
+    answer: We burn them
+    feedback: "Ugh\u2026 No\u2026  I guess I overestimated your intelligence.  No,
+      burning it would make the smoke carry the sacrifice to the sky.  That's not
+      what we want, we need it to be carried into the underworld.  To achieve this
+      we let the sacrifice bleed into a deep hole.  That way it is certain to reach
+      the underworld."
+  - acceptedAnswer: 0
+    answer: We throw it into the water
+    feedback: Do you think this is some sort of joke?  The water is very clearly
+      not the domain of Plouton, no if you do that it will be carried to Poseidon. 
+      That's not what we want, we need it to be carried into the underworld.  To
+      achieve this we let the sacrifice bleed into a deep hole.  That way it is certain
+      to reach the underworld.
+  - acceptedAnswer: 1
+    answer: We let it bleed into a hole
+    feedback: Oh, I am gonna make a priest of you yet.  Correct. As you know Plouton
+      resides in the Underworld, so we need to make sure it gets there.  To achieve
+      this we let the sacrifice bleed into a deep hole.  That way it is certain to
+      reach the underworld.

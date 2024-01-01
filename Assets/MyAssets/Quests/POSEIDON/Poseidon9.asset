@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon9
+  m_EditorClassIdentifier: 
+  question: "Hey!  You know remember when we talked about Archimedeses wacky burning
+    mirrors invention.  Well, he did it again. He created a new weapon of naval destruction.
+    At this point I am almost convinced that he has some sort of pact with Poseidon. 
+    It's some sort of claw that turns the ship itself upside down so that it immediately
+    fills with water and sinks. \\n It's fascinating.  I wonder if it actually exists,
+    again it just seems\u2026 so fantastical. Do you think it's real?"
+  answers:
+  - acceptedAnswer: 0
+    answer: Seems farfetched
+    feedback: "Mmm\u2026. I guess you are right\u2026 I mean, nothing is capable
+      of rivaling Poseidon's power on the sea anyway. Then again\u2026 The claw of
+      Archimedes does sound oddly do- able."
+  - acceptedAnswer: 1
+    answer: It seems possibly
+    feedback: "I know. It just seems like in theory it may be possibly, you would
+      just need enough force.  I wonder, what it would look like\u2026"
+  - acceptedAnswer: 0
+    answer: I believe it's real
+    feedback: It's always good to keep an open mind. But I wonder what it would look
+      like...

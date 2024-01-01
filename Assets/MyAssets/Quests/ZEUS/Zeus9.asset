@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus9
+  m_EditorClassIdentifier: 
+  question: "Greetings! You know, sometimes I feel like I should ask people more
+    questions. No, not like that, I meant questions, that I don't know the answer
+    to. Personal questions. It's not much, but showing that little bit of interest
+    is always appreciated by people, so\u2026 How are you doing today?"
+  answers:
+  - acceptedAnswer: 1
+    answer: Pretty good
+    feedback: That's good to hear! I am always happy when the people around me are
+      happy as well. Unless you are trying to tell me something with the use of the
+      word pretty. I mean, pretty good, is a bit relative isn't it? Oh, sorry I am
+      starting to rant again, aren't I? I swear to Zeus, one of these days I will
+      straight up be an old hag, that tells the same tales over and over again.
+  - acceptedAnswer: 1
+    answer: Miserable
+    feedback: "I am so sorry to hear that\u2026 I sincerely hope you will be able
+      to feel better soon. I know I don't really know why you are so miserable, but\u2026
+      Whatever it is, I am sure you can pull through it! You hear that, I believe
+      in you! And that means you should believe in yourself too! Because it is very
+      important that if nobody else, at least you believe in yourself and carry on."
+  - acceptedAnswer: 1
+    answer: Meh
+    feedback: "Ah\u2026 Yes, I know these days. The ones were you just feel a bit
+      lifeless and bored. Not bad, not good, just meh. But it's not necessarily bad,
+      you know. See it as an opportunity to relax a little. I know you have a lot
+      to manage all the time, but sometimes you should just take a break sit back
+      and have a relaxing time, maybe enjoy a nap. Oh, sorry I am starting to rant
+      again, aren't I?"

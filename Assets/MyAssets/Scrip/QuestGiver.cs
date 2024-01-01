@@ -15,6 +15,15 @@ public class QuestGiver : MonoBehaviour
     [SerializeField]
     private Collider player;
 
+    private int tracker;
+
+
+    [SerializeField]
+    private GameObject tutorial;
+
+    [SerializeField]
+    private GameObject key;
+
     [Header("UI")]
     [SerializeField]
     private Canvas questionUI;
@@ -23,26 +32,58 @@ public class QuestGiver : MonoBehaviour
     [SerializeField]
     private Text[] answers;
 
+    [SerializeField]
+    private Text score;
+
+    private string perfReview;
+
     private void OnTriggerEnter(Collider other)
     {
+        if(tutorial!=null)
+            key.gameObject.GetComponent<Tutorial>().tutorial = tutorial;
+
         if(other==player)
         {
-
-            dialogue.text = quests[0].question;
-
-            for(int i = 0; i<3;i++)
+            if(quests.Count != 0)
             {
-                answers[i].text = quests[0].answers[i].answer;
+                dialogue.text = quests[0].question;
+                
+                int t = Random.Range(0,2);
+                for(int i = 0; i<3;i++)
+                {
+                    if(t==2)
+                        t=0;
+                    else
+                        t++;
+
+
+                    answers[i].text = quests[0].answers[t].answer;
+                    answers[i].transform.parent.GetComponent<Answer>().answerId = t;
+
+
+
+
+                }
+                questionUI.gameObject.SetActive(true);
+                questionUI.gameObject.GetComponent<QuestRecall>().LastQuester = this;
+                questionUI.gameObject.transform.GetChild(1).gameObject.SetActive(true);
             }
+            else
+            {   
+                perfReview = "The Gods judges your performance and have found... \n";
+                perfReview += "   " + correctAnswers + "/10   \n";
+                if(correctAnswers<7) 
+                    perfReview += "   you to be lacking... Watch yourself.\n";
+                else
+                    perfReview += "   you to be worthy... You have there blessing.\n";
+                perfReview += "      Carry on to seek the other gods knowledge and blessings.";
 
-
-            questionUI.gameObject.SetActive(true);
-            questionUI.gameObject.GetComponent<QuestRecall>().LastQuester = this;
-            questionUI.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-
-
-
-           }
+                dialogue.text = perfReview;
+                questionUI.gameObject.SetActive(true);
+                questionUI.gameObject.transform.GetChild(3).gameObject.SetActive(true);
+                
+            }
+        }
     }
 
     public void QuestAnswered(int answer)
@@ -52,8 +93,8 @@ public class QuestGiver : MonoBehaviour
 
         dialogue.text = quests[0].answers[answer].feedback;
         quests.Remove(quests[0]);
-        
-
+        tracker++;
+        score.text = tracker +"/10";
     }
 
     public void Finish()

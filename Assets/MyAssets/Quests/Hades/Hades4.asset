@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades4
+  m_EditorClassIdentifier: 
+  question: "\u2026  Hmm?  \u2026  What about it?  \u2026  I am pretty sure you can
+    answer your own question. Why is there a living snake in the temple?"
+  answers:
+  - acceptedAnswer: 0
+    answer: It's a sacrifice
+    feedback: Literally one of his signs is the snake!  To sacrifice one in his name
+      would be one good way to invoke death upon yourself, yes.  No, the snake keeps
+      the temple free of mice and rats.  Besides it's a nice pet to have on boring
+      days.  Speaking of sacrifices, are you planning on sacrificing anything to
+      Plouton today?
+  - acceptedAnswer: 0
+    answer: It's to scare Ambrosia away.
+    feedback: "Heh\u2026 You aren't wrong...hehe  Hehehe\u2026 What?!  Don't give
+      me that look! It's not my fault she doesn't like snakes!  Besides I just don't
+      want any of that Zeus-enthusiasm in here,  As if a single god could cure everything\u2026 
+      But no, the snake keeps the temple free of mice and rats.  Besides it's a nice
+      pet to have on boring days."
+  - acceptedAnswer: 1
+    answer: It keeps the temple clean.
+    feedback: "Yes, it does. It always sweeps the floor in the morning and does the
+      laundry in the evening.  \u2026  In Case you didn't catch it, I am jesting. 
+      Yes, it keeps the temple clean...  Specifically speaking, it keeps the temple
+      clean of any mice and rats, that may decide to come here."

@@ -6,6 +6,8 @@ public class PickUp : MonoBehaviour
 {
     [SerializeField]
     private Collider player;
+    public GameObject tutorial;
+    public GameObject nextTutorial;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,9 +15,12 @@ public class PickUp : MonoBehaviour
         {
 
             player.GetComponent<NavScrip>().HasKey = true;
-
             this.gameObject.SetActive(false);
-
+            if(tutorial!=null)
+            {
+                Destroy(tutorial.gameObject);
+                nextTutorial.SetActive(true);
+            }
 
 
         }

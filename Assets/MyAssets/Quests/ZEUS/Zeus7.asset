@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus7
+  m_EditorClassIdentifier: 
+  question: Hey, it's my favourite city-manager! You should stay away from me this
+    week. I am feeling like I am coming up with some illness. But, I know just the
+    way how to avoid it. Can you guess what my not so secret technique of avoiding
+    illness is?
+  answers:
+  - acceptedAnswer: 0
+    answer: Greek Medicine
+    feedback: You mean all that stuff that Hippocrates invented recently? Honestly,
+      I am not sure I trust the whole Hippocratic oath thing... See, Zeus happens
+      to be known as the Averter of ills, Apemius. Now, that doesn't mean Illness
+      specifically but more generally any bad things, but I am sure its gonna apply
+      to illness as well. A quick sacrifice to him and I will be in great shape again.
+  - acceptedAnswer: 0
+    answer: Taking it easy for a while
+    feedback: Hmm, that sounds pretty reasonable, but I think it's better if I first
+      try doing something against it and then rest up a bit. The medicine I mentioned
+      is, of course, Zeus. See, Zeus happens to be known as the Averter of ills,
+      Apemius. Now, that doesn't mean Illness specifically but more generally any
+      bad things, but I am sure its gonna apply to illness as well. A quick sacrifice
+      to him and I will be in great shape again.
+  - acceptedAnswer: 1
+    answer: Does the answer involve sacrificing something to Zeus?
+    feedback: You bet it does ! I am so glad that you are starting to understand
+      that most things can be solved by sacrificing things to Zeus. See, Zeus happens
+      to be known as the Averter of ills, Apemius. Now, that doesn't mean Illness
+      specifically but more generally any bad things, but I am sure its gonna apply
+      to illness as well. A quick sacrifice to him and I will be in great shape again.

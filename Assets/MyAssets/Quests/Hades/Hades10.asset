@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades10
+  m_EditorClassIdentifier: 
+  question: "\u2026  \u2026  Why do people think that Plouton is evil?  He isn't
+    and I am not evil either just because I am a priestess in a temple devoted to
+    him.  \u2026  It is obvious that he can't be evil, he is in no position to be
+    evil.  This is the last question, if you answer it correctly, you may as well
+    be a priest of Plouton. Tell me, why can't Plouton be evil?"
+  answers:
+  - acceptedAnswer: 1
+    answer: He has a dog
+    feedback: 'For example, when Hercules ventured into the underworld to capture
+      his dog Cerberus, Plouton just gave his dog to him, but only under one condition: 
+      Hercules had to ensure him that the dog wouldn''t be harmed.  Besides as the
+      god responsible for the afterlife he has to keep a certain balance. Balance
+      must be kept. The Dead need to remain there.  And just because he is doing
+      his job, he is considered evil? Pah! '
+  - acceptedAnswer: 1
+    answer: He has to keep balance
+    feedback: 'Correct.  As the god of afterlife, he has no business being good or
+      evil.  He is a necessary part of the world and how it works, he is if anything
+      neutral.  But his position gives a certain responsibility and authority that
+      he has to convey.  Balance must be kept. The Dead need to remain there.  And
+      just because he is doing his job, he is considered evil? Pah! '
+  - acceptedAnswer: 1
+    answer: He is a stern, but fair ruler
+    feedback: 'Exactly.  He has a certain responsibility to full fill and he does
+      that very well.  He is fair in his judgement, and treats everyone the same. 
+      Balance must be kept. The Dead need to remain there.  And that is why he is
+      feared, not because he does evil acts, but because we keep breaking his rules
+      and then call him evil or cruel because he re-enforces them. '

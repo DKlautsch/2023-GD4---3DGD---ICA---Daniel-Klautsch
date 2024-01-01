@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades3
+  m_EditorClassIdentifier: 
+  question: Right, seriously though why do you keep coming here?  The only reason
+    this temple exists is, because people are scared of him and didn't want to offend
+    him by not building a temple to him.  People don't come here, instead they go
+    to Ambrosia and Alkyone with their problems and prayers They probably don't even
+    realise that Plouton isn't evil. Why do you think is he so little prayed to?
+  answers:
+  - acceptedAnswer: 1
+    answer: He ignores prayers.
+    feedback: 'Yes, it''s true. Plouton ignores all praise and prayers.  Rule one
+      in becoming a priest in his temple is to realize that.  My guess is, that since
+      people know, praying to him is pointless, they don''t do it.  But just because
+      something is pointless doesn''t mean you shouldn''t do it!  The same thing
+      is said about crying, but that doesn''t stop anyone from actually doing it
+      every now and then. '
+  - acceptedAnswer: 0
+    answer: He is cruel.
+    feedback: "How very novel for a greek god to be cruel!  I am sure that gods like
+      Zeus and Poseidon \u2013 the most worshipped greek gods there are \u2013 have
+      never been cruel in the past.  Oh wait! Remember that time they wiped out humanity
+      in a fit of anger?  But nooo! Plouton is really cruel.  He is also responsible
+      for wealth and the afterlife.  It's a thankless job and someone has to do it! "
+  - acceptedAnswer: 0
+    answer: He is unimportant.
+    feedback: "\u2026  For your sake, I will pretend I didn't hear that, and instead
+      assume that you are an uneducated peasant that somehow ended up here. You realise
+      that he is responsible for wealth and after-life?  No, the reason people don't
+      pray to him is that Plouton ignores all praise and prayers.  My guess is, that
+      since people know, praying to him is pointless they don't do it.  But just
+      because something is pointless doesn't mean you shouldn't do it!"

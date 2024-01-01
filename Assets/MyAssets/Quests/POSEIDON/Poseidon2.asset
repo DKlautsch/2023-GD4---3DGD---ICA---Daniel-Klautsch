@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon2
+  m_EditorClassIdentifier: 
+  question: H-Hello. I see you are here to sacrifice to Poseidon. The sea is really
+    beautiful today. You know sailors have a certain tradition that they follow before
+    they set out on any big journeys across the sea. \n I am sure you can guess what
+    that Tradition is. So, what do sailors do in preparation of traveling over the
+    sea?
+  answers:
+  - acceptedAnswer: 1
+    answer: Sacrifice to Poseidon
+    feedback: "Yes\u2026 It's tradition for sailors to make an offering to Poseidon
+      so he may give them a safe passage during their travels. You\u2026 don't want
+      to have Poseidon as an enemy, when traveling the sea\u2026 The past has shown
+      it's not recommendable."
+  - acceptedAnswer: 0
+    answer: Getting drunk
+    feedback: "Uhm\u2026 I-I guess you might not be wrong.  But that wasn't the tradition
+      I meant. It's tradition for sailors to make an offering to Poseidon so he may
+      give them a safe passage during their travels. You\u2026 don't want to have
+      Poseidon as an enemy, when traveling the sea\u2026 The past has shown it's
+      not recommendable."
+  - acceptedAnswer: 0
+    answer: Clean the deck
+    feedback: "I\u2026 guess that couldn't hurt, but I meant a tradition far more\u2026
+      important. It's tradition for sailors to make an offering to Poseidon so he
+      may give them a safe passage during their travels. You\u2026 don't want to
+      have Poseidon as an enemy, when traveling the sea\u2026 The past has shown
+      it's not recommendable."

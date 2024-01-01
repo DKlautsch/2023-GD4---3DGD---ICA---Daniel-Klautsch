@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus5
+  m_EditorClassIdentifier: 
+  question: The rituals and ceremonies we perform certainly look and feel very mystical.
+    I already told you about what Zeus likes to have sacrificed, but we haven't really
+    talked about the how. There is a certain way, in which one needs to perform the
+    ceremony. How do you think we ensure that the gods receive our sacrifice?
+  answers:
+  - acceptedAnswer: 1
+    answer: Burning the Sacrifice
+    feedback: Yup, we burn it. The flames take the sacrifice and carry it to Zeus
+      through the smoke. For most gods, you simply burn the sacrifice, since most
+      of them live up high and thus are sure to receive the sacrifice, however a
+      few specific gods, have different ways of receiving their perspective sacrifice,
+      since they reside in different places.
+  - acceptedAnswer: 0
+    answer: Burying the Sacrifice
+    feedback: Why would you think that? How is Zeus supposed to get it, if we bury
+      it in the ground? The flames take the sacrifice and carry it to Zeus through
+      the smoke. For most gods, you simply burn the sacrifice, since most of them
+      live up high and thus are sure to receive the sacrifice, however a few specific
+      gods, have different ways of receiving their perspective sacrifice, since they
+      reside in different places.
+  - acceptedAnswer: 0
+    answer: Spilling it's blood on the Altar
+    feedback: That is an important part of the ceremony, yes. But it isn't how we
+      make sure it is received by Zeus. The flames take the sacrifice and carry it
+      to Zeus through the smoke. For most gods, you simply burn the sacrifice, since
+      most of them live up high and thus are sure to receive the sacrifice, however
+      a few specific gods, have different ways of receiving their perspective sacrifice,
+      since they reside in different places.

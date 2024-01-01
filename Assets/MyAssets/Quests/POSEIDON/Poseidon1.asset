@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon1
+  m_EditorClassIdentifier: 
+  question: "Hi! This is the temple of Poseidon. So, you can sacrifice things for
+    Poseidon here, if you want.  And\u2026 well it's not as important but my name
+    is Alkyone.  So...uhm, if there\u2026 if you need help with anything just ask.
+    So, How well are you acquainted with Poseidon?"
+  answers:
+  - acceptedAnswer: 0
+    answer: God of Rain
+    feedback: "Water is an important part of Poseidon. But\u2026 I am afraid he isn't
+      responsible for\u2026 Rain. That would be Zeus, he is responsible for all sort
+      of weather. On the other hand, Poseidon is responsible for storms at seas,
+      which I admit can also be seen as weather. I-I am very sorry if this is confusing.
+      Poseidon is responsible for sea, storms and earthquakes and horses."
+  - acceptedAnswer: 1
+    answer: The Inventor of the Horse
+    feedback: "Yes\u2026 Poseidon invented the horse. To be specific he is the father
+      of the first horse that ever came to be. But that is far from the only thing
+      he did. He is also responsible for the sea, storms and earthquakes. Poseidon
+      is responsible for sea, storms and earthquakes and horses. So, I am sure you
+      already know this but\u2026 you can only sacrifice to one god at a time...But
+      I am not trying to get rid of you, you can also stay here."
+  - acceptedAnswer: 0
+    answer: King of Atlantis
+    feedback: "No, that is a good assumption, but it isn't accurate. One of his children,
+      Atlas is the King of Atlantis.  Poseidon is responsible for sea, storms and
+      earthquakes and horses. So, I am sure you already know this but\u2026 you can
+      only sacrifice to one god at a time, so if you don't want to sacrifice to Poseidon
+      you can go and look at some of the other temples\u2026 But I am not trying
+      to get rid of you, you can also stay here."

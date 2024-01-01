@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon3
+  m_EditorClassIdentifier: 
+  question: 'Hi! Poseidon is pretty awesome but it''s also the little details that
+    are fascinating. Like why is the sea blue? Or for example: Do you know what Poseidon
+    uses his trident for?'
+  answers:
+  - acceptedAnswer: 0
+    answer: Weapon
+    feedback: "Possibly\u2026 It can certainly be used as a weapon. But other than
+      that, it has the ability to control the ocean and can create earthquakes, he
+      also uses it to create Tsunamis storms and waves."
+  - acceptedAnswer: 1
+    answer: Wand
+    feedback: "Mhmm\u2026 It has the ability to control the ocean and can create
+      earthquakes, he also uses it to create Tsunamis storms and waves."
+  - acceptedAnswer: 0
+    answer: Fishing
+    feedback: "I\u2026 yes, the trident can presumably be used to fish. In fact that
+      is what tridents are for, but I am uncertain if Poseidon's Trident is for that
+      purpose. His trident has the ability to control the ocean and can create earthquakes,
+      he also uses it to create Tsunamis storms and waves."

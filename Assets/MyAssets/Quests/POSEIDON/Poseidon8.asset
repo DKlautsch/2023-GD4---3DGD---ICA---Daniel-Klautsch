@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon8
+  m_EditorClassIdentifier: 
+  question: "Hey! Have you lately taken a look at the new sorts of inventions there
+    are? It's fascinating isn't it ? We live in the future. There was no time in
+    which there were as many innovations as there are now. There is one that I heard
+    about that is used in naval battles against Ships. A guy named Archimedes made
+    it. It's some sort of laser that set ships on fire. It's so weird, he must have
+    stolen that idea from the very gods. Using light to set ships on fire\u2026 Any
+    idea how it works?"
+  answers:
+  - acceptedAnswer: 1
+    answer: The mirrors focus the light.
+    feedback: "But\u2026 is that enough to set a ship on fire, especially considering
+      how far away it is from the laser?  It just all seems a bit surreal. But I
+      think you are right, it was called the burning mirror.  The only way I can
+      explain it to myself is that Archimedes must have had the help of the gods."
+  - acceptedAnswer: 1
+    answer: Ships are easily flammable.
+    feedback: "Oh, because of the tar used to make it water-repellant? It's true,
+      Tar is easily flammable. I suppose that would explain it\u2026 I guess then
+      Archimedeses burning mirror actually works? But even then? It\u2026 hmm\u2026
+      it still seems far fetched. \\n He must have had the assistance of gods in
+      creating that invention."
+  - acceptedAnswer: 0
+    answer: Didn't really happen.
+    feedback: "Oh\u2026 I guess you are probably right. It does seem a bit unrealistic,
+      but\u2026 still... isn't the idea of it exciting? Besides, who know maybe in
+      a few years, Archimedeses burning mirror will actually be possible\u2026 Yous
+      should never lose your sense of wonder. \\n At least that's what I think...
+      ...Ah, but realistically speaking you are probably right."

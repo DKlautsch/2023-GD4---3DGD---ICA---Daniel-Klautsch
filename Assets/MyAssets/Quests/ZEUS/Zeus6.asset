@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus6
+  m_EditorClassIdentifier: 
+  question: You know, have you ever thought about your own name, and what it's implications
+    are based on where you go and what you do? You remember my name, right? It's
+    all right if not, I always have trouble remembering new names as well. My Name
+    is Ambrosia, which is funny when considering that I am a priestess in a temple
+    of Zeus. You realize why it's funny, right?
+  answers:
+  - acceptedAnswer: 1
+    answer: The name relates to immortality
+    feedback: True, it does. And that is ironic in its own way. But what I meant
+      was how it relates to Ambrosia, the food of the gods. Makes me wonder if my
+      name is the reason I am a priestess or the fact that I would later become a
+      priestess is why I have the name. Or maybe I am looking to deep into it, who
+      knows. But it's fun to think about What about your name?
+  - acceptedAnswer: 1
+    answer: The name relates to food
+    feedback: "Yes, the food of the gods to be specific. It's fascinating to me that
+      even my name is a connection to the gods. Makes me wonder if my name is the
+      reason I am a priestess or the fact that I would later become a priestess is
+      why I have the name. Or maybe I am looking to deep into it, who knows. But
+      it's fun to think about\u2026 What about your name?"
+  - acceptedAnswer: 0
+    answer: The name relates to fire
+    feedback: "Huh? Oh, because it's like the word Amber? Amber-osia? Heh, that sounds
+      funny, but no that wasn't what I meant. Rather Ambrosia is also known as the
+      food of the gods. Makes me wonder if my name is the reason I am a priestess
+      or the fact that I would later become a priestess is why I have the name. Or
+      maybe I am looking to deep into it, who knows. But it's fun to think about\u2026"

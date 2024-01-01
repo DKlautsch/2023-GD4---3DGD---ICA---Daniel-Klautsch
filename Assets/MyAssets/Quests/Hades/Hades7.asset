@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades7
+  m_EditorClassIdentifier: 
+  question: "Apprentice, you are late!  \u2026  Yes... I realize you aren't, still
+    let me enjoy this power-trip while it lasts.  So, today we will talk about how
+    to correctly pray to Plouton.  It's not quite as easy as you may think it is.
+    How does one pray to Plouton?"
+  answers:
+  - acceptedAnswer: 0
+    answer: You raise your hands to the sky.
+    feedback: Wrong, raising your hands to the sky, doesn't work at all for Plouton. 
+      That's how you pray to the gods on Olympus.  You need to keep in mind that
+      Plouton resides down below the earth, in the underworld.  That means you need
+      to kneel down and pound on the ground to get his attention.  You can use the
+      same method to pray to any of the other gods that reside in the underworld.
+  - acceptedAnswer: 0
+    answer: You put your hands together.
+    feedback: "\u2026How would that do anything?  How do you wish to get any gods
+      attention by doing something so minor?  Plouton resides down below the earth,
+      in the underworld.  That means you need to kneel down and pound on the ground
+      to get his attention.  You can use the same method to pray to any of the other
+      gods that reside in the underworld."
+  - acceptedAnswer: 1
+    answer: You kneel and pound the ground.
+    feedback: "Hmm\u2026 Not bad, you seem to be catching on quickly.  Plouton resides
+      down below the earth, in the underworld.  That means you need to kneel down
+      and pound on the ground to get his attention.  You can use the same method
+      to pray to any of the other gods that reside in the underworld."

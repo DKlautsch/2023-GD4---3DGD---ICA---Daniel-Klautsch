@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon6
+  m_EditorClassIdentifier: 
+  question: "Welcome back! I prepared everything, so that you can get right away
+    to make an offering to Zeus. Say, Did you know that some god accept human sacrifices
+    ? I am not certain, how I feel about that, it's a bit\u2026 odd. I once tried
+    talking with Athanasia about it, but she just said something about how it's only
+    logical to do it because of the inevitability of death. What do you think?"
+  answers:
+  - acceptedAnswer: 0
+    answer: I don't want to sacrifice humans.
+    feedback: "I know\u2026 I don't want to do that either. It\u2026 seems wrong
+      for many reasons. I just hope that one day, other will share my opinion on
+      the matter."
+  - acceptedAnswer: 1
+    answer: Maybe it's more fitting to certain gods.
+    feedback: "I-I am sure that it would fit perfectly in thematic to some gods,
+      b-but that's not my problem. It\u2026 just seems wrong to me for many reasons.
+      I could never sacrifice another living human being. I just hope that one day,
+      others will share my opinion on the matter."
+  - acceptedAnswer: 0
+    answer: Humans aren't that different from animals.
+    feedback: "Wh\u2013 What?! But! But a human life doesn't even come close to the
+      same value of an animal's life.  It\u2026 just seems wrong to me for many reasons.
+      I could never sacrifice another living human being. I just hope that one day,
+      you will share my opinion on the matter."

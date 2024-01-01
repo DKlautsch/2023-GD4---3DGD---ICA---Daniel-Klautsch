@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus2
+  m_EditorClassIdentifier: 
+  question: Hey, I see you have some sacrificial meat with you already! It's good
+    to see that you are coming prepared, but you know there is one tiny problem when
+    sacrificing so much meat. Flies, it lures an awful lot of pesky flies. But of
+    course, yours truly knows exactly what to do to get rid of them. Can you guess
+    what it is?
+  answers:
+  - acceptedAnswer: 0
+    answer: Anti-Bug Spray
+    feedback: "Anti\u2026 what? I am sorry, I am not sure I know what you mean. But
+      how would that work? Zeus also happens to be known as the Disperser of flies
+      under the name: Apomyius. So by making a sacrifice in Apomyiuses name, we got
+      rid of the flies."
+  - acceptedAnswer: 1
+    answer: More Meat
+    feedback: 'Yes, I know it sounds silly, but that is right. We make a sacrifice
+      to Zeus. Zeus also happens to be known as the Disperser of flies under the
+      name: Apomyius. So by making a sacrifice in Apomyiuses name, we got rid of
+      the flies.'
+  - acceptedAnswer: 0
+    answer: Spiders
+    feedback: 'Eww, no. Maybe that''s a thing they do in the temple of Hades, but
+      here in the temple of Zeus I try to keep everything clean and keep spiders
+      and the like out. No, the solution is much cleaner. Zeus also happens to be
+      known as the Disperser of flies under the name: Apomyius. So by making a sacrifice
+      in Apomyiuses name, we got rid of the flies.'

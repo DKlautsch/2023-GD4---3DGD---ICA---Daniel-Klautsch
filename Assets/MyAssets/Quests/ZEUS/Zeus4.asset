@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus4
+  m_EditorClassIdentifier: 
+  question: 'Hey! I was hoping, you would come her today. See, there is something
+    I wanted to ask about, and it is a bit of a difficult topic to discuss. So, I
+    think I will just ask you straight: What do you think about sacrificing humans
+    to Zeus?'
+  answers:
+  - acceptedAnswer: 0
+    answer: I am sure he would appreciate human sacrifices.
+    feedback: "But how are you so certain about that? Hades accepts human sacrifices,
+      perhaps it's naive to think Zeus wouldn't? Then again on the other hand, there
+      is that story about a father who sacrificed his son to Zeus. Zeus wasn't happy
+      about that and turned him into a wolf. But\u2026 If it is any condolences,
+      if you were turned into a Wolf I would pet you."
+  - acceptedAnswer: 0
+    answer: No! There is no way, he would want that!
+    feedback: "I wish I could be that certain. Hades accepts human sacrifices, perhaps
+      it's naive to think Zeus wouldn't? Then again on the other hand, there is that
+      story about a father who sacrificed his son to Zeus. Zeus wasn't happy about
+      that and turned him into a wolf. But\u2026 If it is any condolences, if you
+      were turned into a Wolf I would pet you."
+  - acceptedAnswer: 1
+    answer: Depends on the circumstances.
+    feedback: "Hmm, but what kind of circumstances would justify the act then\u2026?
+      There is that story about a father who sacrificed his son to Zeus. Zeus wasn't
+      happy about that and turned him into a wolf. But\u2026 If it is any condolences,
+      if you were turned into a Wolf I would pet you."

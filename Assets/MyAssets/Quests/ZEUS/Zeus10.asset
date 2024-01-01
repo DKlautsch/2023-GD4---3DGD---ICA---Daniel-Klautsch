@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus10
+  m_EditorClassIdentifier: 
+  question: 'Greetings! I was going to talk about the involvement of a certain god
+    in marriages. Yes, as you can probably guess: Zeus. He isn''t exactly the main-god
+    of marriage, but he was married to the main-goddess of marriage. So, how about
+    this instead. Why do you think Zeus is mentioned in marriages?'
+  answers:
+  - acceptedAnswer: 1
+    answer: Due to his marriage with Hera.
+    feedback: Quite possibly, that is part of the reason. But it's mostly because
+      of the countless relations he had with all sorts of women. He was in relations
+      with countless of gods, and he was even in relations with over a dozen women.
+      And not just women, even men. At least that's what I hear, probably just a
+      rumour... I mean we Greeks live in modern times, a person's sexual orientation
+      certainly doesn't identify them in any social way.
+  - acceptedAnswer: 0
+    answer: Due to his power over the weather.
+    feedback: "Oh, I get it. Because nobody wants bad weather during their wedding.
+      I never thought about that. It's a good point. But it's mostly because of the
+      countless relations he had with all sorts of women. And not just women, even
+      men. At least that's what I hear, probably just a rumour... I mean we Greeks
+      live in modern times, a person's sexual orientation certainly doesn't identify
+      them in any social way. To each their own, really\u2026"
+  - acceptedAnswer: 1
+    answer: Due to his marriages
+    feedback: 'Exactly, that is it! He really had countless of lovers: Mnemosyne,
+      Leto, Dione, Maia, Semele, Alcmene, Io, Themis, Eurynome, Europa, Metis. And
+      those are only a few of the ones I know about. He also had quite a lot of relations
+      with mortal women. It makes you wonder...'

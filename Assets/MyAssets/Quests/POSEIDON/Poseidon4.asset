@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon4
+  m_EditorClassIdentifier: 
+  question: "Good evening. Have you recently visited the other priestesses? I don't
+    have much time to get out, and I wonder how they are holding up. And\u2026 uhm\u2026
+    yes! Let me see if you know about Poseidon's preferred sacrificial animal. Which
+    animal is best suited to be sacrificed to Poseidon?"
+  answers:
+  - acceptedAnswer: 0
+    answer: Fish
+    feedback: It's a nice simple answer, isn't it? But it's wrong, Poseidon prefers
+      horses. Remember he is the one who invented them, so to honor him we sacrifice
+      them.
+  - acceptedAnswer: 1
+    answer: Horse
+    feedback: Yes! Poseidon likes to be offered horses. Remember he is the one who
+      invented them, so to honor him we sacrifice them.
+  - acceptedAnswer: 0
+    answer: Goat
+    feedback: "No\u2026 Not quite. Poseidon prefers horses. Remember he is the one
+      who invented them, so to honor him we sacrifice them."

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus1
+  m_EditorClassIdentifier: 
+  question: Greetings, I welcome you to the temple of Zeus. My name is Ambrosia.
+    I am the priestess of this temple and as such it is my responsibility, to make
+    sure you are sufficently knowledgable about the king of all gods, Zeus. So, how
+    familiar are you with Zeus?
+  answers:
+  - acceptedAnswer: 0
+    answer: He is the god of the underworld.
+    feedback: N-No, you are thinking of Hades right now, which is almost the opposite
+      of Zeus. No, Zeus is the god of thunder, but he has many many other titles
+      as well. But, its alright that you didn't know... that just means I will have
+      to try even harder to make you learn about Zeus. I am sure that eventually
+      you are going to know all about him, and I am going to be so proud of you,
+      when you do.
+  - acceptedAnswer: 0
+    answer: He is that strong demi-god guy.
+    feedback: I suspect you are thinking of Hercules right now. Hercules just so
+      happens to be the son of Zeus, so now you know where all that godly power came
+      from. I think you will soon find that Zeus is the god of thunder, but he has,
+      of course, many other titles relating to his other duties. But, its alright
+      that you didn't know... that just means I will have to try even harder to make
+      you learn about Zeus.
+  - acceptedAnswer: 1
+    answer: He is the god of thunder
+    feedback: Yes! Well, I mean no-- I mean yes. He is the god of thunder yes, but
+      there is so much more he does than just that.  I am sure you can imagine that
+      as king of all gods, Zeus has his hands quite full all the time with all sorts
+      of things. But it's good to see that you are somewhat familiar with what he
+      does.

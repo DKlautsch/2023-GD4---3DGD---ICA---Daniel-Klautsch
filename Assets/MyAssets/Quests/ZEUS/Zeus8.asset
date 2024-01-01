@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus8
+  m_EditorClassIdentifier: 
+  question: "I am\u2026 a bit sick today, so let's keep it short\u2026 Uhm\u2026
+    Let's see, you probably want to learn something interesting about Zeus. Did you
+    know that Zeus is responsible for weather and harvest of crops? You did? Uhh\u2026
+    I am sorry, I am just really not feeling well today. Do you know anything interesting
+    about Zeus?"
+  answers:
+  - acceptedAnswer: 1
+    answer: He lives on Mount Olympus.
+    feedback: Indeed he does. Zeus lives there with a lot of other gods. Sniff Sorry,
+      I am not really in the right mind today, but I will be fully up again next
+      week.
+  - acceptedAnswer: 1
+    answer: He once wiped out humanity.
+    feedback: "Ah, yeah. That's true. At some point he grew annoyed with humanity
+      and all the war we created. So, he decided in a fit of rage that he should
+      kill them all in a great flood. This was easily done with the help of his brother,
+      Poseidon. But then he created us anew. I guess we should always remember that
+      even in his wisdom, he is quite violent and often uses violence to get what
+      he wants. \u2026 But he probably has his reasons."
+  - acceptedAnswer: 1
+    answer: Don't worry, get better soon.
+    feedback: Thanks for understanding. I can still perform the sacrifice for you
+      though. I just kind of need to rest my eyes a bit afterwards.

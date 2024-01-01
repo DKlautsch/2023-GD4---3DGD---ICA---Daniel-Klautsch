@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Poseidon5
+  m_EditorClassIdentifier: 
+  question: "Hey! So, did\u2026 did you meet them yet ? The other temple priestesses.
+    Ambrosia is really nice, right? And I know that Athenasia is a bit rough around
+    the edges, but she is also a nice person deep down. Oh, you want to know about
+    how to sacrifice to Poseidon. Well, how do you think you would sacrifice a horse
+    to him?"
+  answers:
+  - acceptedAnswer: 0
+    answer: Cut it's head off.
+    feedback: "...Uhm\u2026 N-No\u2026 I\u2026 That's not quite it. What you need
+      to do, is drown the animals in the ocean. That way, you honor Poseidon's creation
+      of the horse."
+  - acceptedAnswer: 0
+    answer: Let it bleed into the ocean.
+    feedback: That sounds reasonable, but is not quite how it goes. What you need
+      to do, is drown the animals in the ocean. That way, you honor Poseidon's creation
+      of the horse.
+  - acceptedAnswer: 1
+    answer: Drown it.
+    feedback: Yes, you drown the horses in the ocean. That way, you honor Poseidon's
+      creation of the horse.

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Hades9
+  m_EditorClassIdentifier: 
+  question: Me? I am just returning from the underworld.  Why do you look so shocked? 
+    That is a normal thing for priests to do, to prove themselves.  You probably
+    will need to do it one day yourself.  ...  I will probably have to tell you how
+    to do it correctly otherwise you will never exit the underworld.  Do you know
+    where the entrance to the underworld lies?
+  answers:
+  - acceptedAnswer: 0
+    answer: In the Atlantis
+    feedback: No, though I wouldn't have anything against visiting the famous Atlantis. 
+      It's a little known fact, but the gate to the underworld lies at mount olympus. 
+      Only us priests can securely enter and exit the underworld securely.  When
+      you enter it, you must hold your breath, Should you fail, and breathe in the
+      smog of the underworld you will surely die. And now you know how to survive
+      the underworld.
+  - acceptedAnswer: 1
+    answer: At Mount Olympus
+    feedback: Impressive.  You are right.  It's a little known fact, but the gate
+      to the underworld lies at mount olympus.  Only us priests can securely enter
+      and exit the underworld securely.  When you enter it, you must hold your breath,
+      Should you fail, and breathe in the smog of the underworld you will surely
+      die. And now you know how to survive the underworld.
+  - acceptedAnswer: 0
+    answer: Under this very temple
+    feedback: Hehe...  Sadly, the entrance to the underworld is not in my basement.
+      It's a little known fact, but the gate to the underworld lies at mount olympus. 
+      Only us priests can securely enter and exit the underworld securely.  When
+      you enter it, you must hold your breath, Should you fail, and breathe in the
+      smog of the underworld you will surely die. And now you know how to survive
+      the underworld.

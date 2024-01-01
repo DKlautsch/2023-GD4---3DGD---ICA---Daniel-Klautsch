@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7398bfa935701ac47867a0283a473512, type: 3}
+  m_Name: Zeus3
+  m_EditorClassIdentifier: 
+  question: It's a lovely day for a sacrifice, isn't it? Listen, I have been thinking.
+    You come here and bring sacrifices, but don't you wanna know the procedure in
+    which they are sacrificed? Of Course you do! Now, what do you think? What kind
+    of animal is best suited as sacrifice for Zeus?
+  answers:
+  - acceptedAnswer: 0
+    answer: Horse
+    feedback: "A Horse? Well, It's not the worst choice, but not exactly the most
+      suited one for Zeus. Horses are more a Poseidon thing. Goats are the best option.
+      Even more specifically white furred goats. White is the purest of colors, and
+      so it is only fitting that it goes to Zeus. \u2026 Well, technically white
+      isn't a color, but\u2026 uhh\u2026 you understood what I meant, right?"
+  - acceptedAnswer: 0
+    answer: Wolf
+    feedback: "A Wolf? Hmm, that seems more like a Hades thing to me. Besides, it
+      seems a bit inconvenient to get wolves. Goats are the best option. Even more
+      specifically white furred goats. White is the purest of colors, and so it is
+      only fitting that it goes to Zeus. \u2026 Well, technically white isn't a color,
+      but\u2026 uhh\u2026 you understood what I meant, right?"
+  - acceptedAnswer: 1
+    answer: Goat
+    feedback: "Exactly ! Goats are the best option. Even more specifically white
+      furred goats. White is the purest of colors, and so it is only fitting that
+      it goes to Zeus. \u2026 Well, technically white isn't a color, but\u2026 uhh\u2026
+      you understood what I meant, right?"
