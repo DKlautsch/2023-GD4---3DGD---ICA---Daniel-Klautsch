@@ -27,7 +27,7 @@ MonoBehaviour:
     answer: It seems possibly
     feedback: "I know. It just seems like in theory it may be possibly, you would
       just need enough force.  I wonder, what it would look like\u2026"
-  - acceptedAnswer: 1
+  - acceptedAnswer: 0
     answer: I believe it's real
     feedback: It's always good to keep an open mind. But I wonder what it would look
       like...

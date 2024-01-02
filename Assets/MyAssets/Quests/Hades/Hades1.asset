@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: "\u2026  \u2026  \u2026  What do you want?"
   answers:
-  - acceptedAnswer: 0
+  - acceptedAnswer: 1
     answer: I just wanted to say hi?
     feedback: 'You probably just stumbled in here by accident, didn''t you ? This
       temple is devoted to Hades, or how you will refer to him Plouton. It is factionally
@@ -28,7 +28,7 @@ MonoBehaviour:
       refer to him Plouton. It is factionally the best temple, and houses the best
       Priestess : Me. My name is Athanasia but you can refer to me simply as priestess. 
       If you don''t want to sacrifice anything, don''t bother me.'
-  - acceptedAnswer: 1
+  - acceptedAnswer: 0
     answer: I wanted to sacrifice things to Hades.
     feedback: 'Don''t call him that ! It brings bad luck to say his name out loud.
       Besides it''s not even his actual name. This temple is devoted to Hades, or
