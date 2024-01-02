@@ -17,29 +17,25 @@ MonoBehaviour:
     just wondering if maybe I should play some sports in my off-time. I was thinking
     about a very popular sport. Can you guess what it is?"
   answers:
-  - acceptedAnswer: 0
+  - acceptedAnswer: 1
     answer: Kicking a ball into a goal
-    feedback: "You mean Episkyros? No, I would probably die in that game. It's very
-      brutal I have heard, and I have seen enough people get hurt by playing it.
-      No, I was thinking about bull-leaping. You know the sport where a bull charges
-      at you and you have to jump over it. I know it sounds very dangerous\u2026.
-      But when I see how gracious and elegantly some people do it\u2026 it looks
-      kind of fun. Besides, everything is dangerous. Life is too short to be scared
-      of jumping over a bull."
+    feedback: "You mean Episkyros? It's very brutal I have heard, and I have seen
+      enough people get hurt by playing it. No, I was thinking about bull-leaping.
+      You know the sport where a bull charges at you and you have to jump over it.
+      I know it sounds very dangerous\u2026. but it looks kind of fun. Besides, everything
+      is dangerous. Life is too short to be scared of jumping over a bull."
   - acceptedAnswer: 1
     answer: Moving figures over a board
     feedback: 'Ah, a fellow Petteia player I see. It''s a really fun game, isn''t
       it? Every player gets 2 rows full with their own figures, and then they have
       to move them in such way that they surround the enemy figurine so that you
-      can capture it. It''s a high-skilled game that involves a lot of thinking.
-      But I already play that game...No, I was thinking about bull-leaping. You know
-      the sport where a bull charges at you and you have to jump over it. '
+      can capture it. But I already play that game...No, I was thinking about bull-leaping.
+      You know the sport where a bull charges at you and you have to jump over it. '
   - acceptedAnswer: 1
     answer: Jumping over a charging bull
-    feedback: "Yes! So you have heard of Bull-Leaping? It's really looks awesome,
-      doesn't it and how easy they make it look. Wouldn't it be interesting to try
-      yourself? I know it sounds very dangerous\u2026. But when I see how gracious
-      and elegantly some people do it\u2026 it looks kind of fun. Besides, everything
-      is dangerous. Life is too short to be scared of jumping over a bull. Then again\u2026
-      it is dangerous. ...I think I will just have to be satisfied with daydreaming
-      about it."
+    feedback: "Yes! So you have heard of Bull-Leaping? Wouldn't it be interesting
+      to try yourself? I know it sounds very dangerous\u2026. But when I see how
+      gracious and elegantly some people do it\u2026 it looks kind of fun. Besides,
+      everything is dangerous. Life is too short to be scared of jumping over a bull.
+      Then again\u2026 it is dangerous. ...I think I will just have to be satisfied
+      with daydreaming about it."
