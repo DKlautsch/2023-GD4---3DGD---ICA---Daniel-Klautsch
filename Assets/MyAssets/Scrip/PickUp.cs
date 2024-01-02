@@ -6,8 +6,6 @@ public class PickUp : MonoBehaviour
 {
     [SerializeField]
     private Collider player;
-    public GameObject tutorial;
-    public GameObject nextTutorial;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,16 +14,13 @@ public class PickUp : MonoBehaviour
 
             player.GetComponent<NavScrip>().HasKey = true;
             this.gameObject.SetActive(false);
-            if(tutorial!=null)
-            {
-                Destroy(tutorial.gameObject);
-                nextTutorial.SetActive(true);
-            }
-
-
         }
     }
 
+    public void rando()
+    {
+        this.transform.position = new Vector3(Random.Range(1.50f, 13.10f),1.16f, Random.Range(-13.00f, 13.00f));
+    }
 
 
 }
